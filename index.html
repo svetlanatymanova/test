@@ -6,58 +6,250 @@
 	<meta charset="UTF-8" />
 	<meta name="format-detection" content="telephone=no" />
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20241011141814" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20241010223707" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<style>
-	.section-tg {
-		margin: 0 auto;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-top: 80px;
-
-		width: 100%;
-		font-family: Montserrat;
-		font-weight: 600;
-	}
-
-	.section-tg__link {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 10px;
-		font-size: 16px;
-		line-height: 1;
-		transition: all 0.3s ease 0s;
-		text-decoration: underline;
-		text-decoration-color: transparent;
-	}
-
-	.section-tg__link:hover {
-
-		fill: #60c2ff;
-		text-decoration-color: #60c2ff;
-	}
-</style>
-
 <body>
 	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<a href="#" class="header__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="" /></picture>
+					</a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu">
+							<svg class="icon-menu-burger">
+								<use href="img/icons/icons-mono.svg#burger"></use>
+							</svg>
+							<svg class="icon-menu-close">
+								<use href="img/icons/icons-mono.svg#close"></use>
+							</svg>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__links links links-header">
+								<li class="links__item">
+									<a href="tel:+74012921992" class="links__link">+7 (4012) 92-19-92</a>
+								</li>
+								<li class="links__item">
+									<a href="mailto:winmedia39@mail.ru" class="links__link">winmedia39@mail.ru</a>
+								</li>
+							</ul>
+							<ul class="menu__list list-icons">
+								<li class="list-icons__item">
+									<a href="https://wa.me/message/6ISFJLW4NOXMI1" class="list-icons__messenger">
+										<svg>
+											<use href="img/icons/icons.svg#whatsapp"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="list-icons__item">
+									<a href="viber://chat?number=79637381992" class="list-icons__messenger">
+										<svg>
+											<use href="img/icons/icons.svg#viber"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="list-icons__item">
+									<a href="https://t.me/WinMedia39" class="list-icons__messenger">
+										<svg>
+											<use href="img/icons/icons.svg#tg"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
 		<main class="main">
-			<section class="section-tg">
-				<a class="section-tg__link" href="https://t.me/la_kerok">
-					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-						<path d="M16 0.5c-8.563 0-15.5 6.938-15.5 15.5s6.938 15.5 15.5 15.5c8.563 0 15.5-6.938 15.5-15.5s-6.938-15.5-15.5-15.5zM23.613 11.119l-2.544 11.988c-0.188 0.85-0.694 1.056-1.4 0.656l-3.875-2.856-1.869 1.8c-0.206 0.206-0.381 0.381-0.781 0.381l0.275-3.944 7.181-6.488c0.313-0.275-0.069-0.431-0.482-0.156l-8.875 5.587-3.825-1.194c-0.831-0.262-0.85-0.831 0.175-1.231l14.944-5.763c0.694-0.25 1.3 0.169 1.075 1.219z" />
-					</svg>
-					<span>Ссылка на ТГ</span>
-				</a>
+			<section class="main__section-main section-main">
+				<picture><source srcset="img/bg.webp" type="image/webp"><img class="section-main__img section-main__img-pc" src="img/bg.jpg" alt="Фон" /></picture>
+				<picture><source srcset="img/bg-mobile.webp" type="image/webp"><img class="section-main__img section-main__img-mb" src="img/bg-mobile.jpg" alt="Фон" /></picture>
+
+				<div class="section-main__container">
+					<h1 class="section-main__title title-h1">
+						Приглашаем к сотрудничеству – размещению рекламы на большом экране на выезде из Калининграда
+					</h1>
+				</div>
+			</section>
+			<div class="main__container main__container-sections">
+				<section class="section-video">
+					<h2 class="section-video__title title-h2">Видео с места расположения</h2>
+					<div class="section-video__video">
+						<iframe src="https://vk.com/video_ext.php?oid=45716746&id=456239022&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</section>
+				<section class="section-scheme">
+					<h2 class="section-scheme__title title-h2">Схема расположения экрана</h2>
+					<div class="section-scheme__scheme">
+						<picture><source srcset="img/map.webp" type="image/webp"><img src="img/map.jpg" alt="" /></picture>
+					</div>
+				</section>
+			</div>
+			<section class="section-info">
+				<div class="section-info__container">
+					<h2 class="section-info__title title-h2">Основные сведения об экране</h2>
+					<div class="section-info__info">
+						<ul class="section-info__list list">
+							<li class="list__item">
+								<b>Место расположения:</b>
+								п. Дорожное, Берлинское шоссе, уч. 8 (Южный обход Калининграда). На пересечении автомобильных потоков,
+								следующих в направлении Окружной дороги.
+								<a target="_blank" href="https://yandex.ru/maps/-/CDT2eCkP">Смотреть на Яндекс.Картах</a>
+							</li>
+							<li class="list__item">
+								<b>Режим работы:</b>
+								c 5.00 до 22.00
+							</li>
+							<li class="list__item">
+								<b>Размеры экрана:</b>
+								ширина 7 м, высота 3 м. Разрешение: 1008*432.
+							</li>
+							<li class="list__item">
+								<b>Дистанция обзора:</b>
+								от 10 м до 500 м.
+							</li>
+							<li class="list__item">
+								<b>Необычная основа привлекает внимание.</b>
+								100% зрительный контакт, так как водители притормаживают на жд переезде (прямо у экрана).
+							</li>
+							<li class="list__item">
+								<b>Количество транспорта проезжающего за время режима работы.</b>
+								С 5:00 и до 20:00 около 1500 машин в час. C 20:00 до 23:00 до 1000 машин в час.
+							</li>
+							<li class="list__item">
+								<b>Количество показов одного 10 сек. ролика в период работы экрана:</b>
+								От 300 до 3000.
+							</li>
+							<li class="list__item">
+								<b>Средний суточный OTS (возможность увидеть):</b>
+								от 5 000 до 15 000 в сутки.
+							</li>
+							<li class="list__item">
+								<b>Есть онлайн трансляция показов экрана.</b>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="section-steps">
+				<div class="section-steps__container">
+					<h2 class="section-steps__title title-h2">Схема работы</h2>
+					<ol class="section-steps__list list-ol">
+						<li class="list-ol__item">Подписание договора</li>
+						<li class="list-ol__item">Оплата (наличный, безналичный),</li>
+						<li class="list-ol__item">Показы,</li>
+						<li class="list-ol__item">Акты через ЭДО.</li>
+					</ol>
+				</div>
+			</section>
+			<section class="section-requires">
+				<div class="section-requires__container">
+					<h2 class="section-requires__title title-h2">Требования к роликам</h2>
+					<div class="section-requires__info">
+						<ul class="section-requires__list list">
+							<li class="list__item">
+								<b>Рекомендуемая продолжительность ролика</b>
+								от 5 до 10 сек или статичный макет. Наиболее эффективно статичное привлекательное изображение (фон) с
+								большими шрифтами и зацикленным движением одного объекта/букв в нем. Т.е. как бы живой большой
+								билборд.
+							</li>
+							<li class="list__item">
+								<b>Технические требования:</b>
+								Видео в формате mр4, не более 3.5 МБ, без звука. Разрешение FullHD, 4К, 1008*432 пикселей или
+								удвоенное/утроенное. Статичные изображения в jpg или png. Развёртка прогрессивная (без полей).
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="section-tarifes">
+				<div class="section-tarifes__container">
+					<h2 class="section-tarifes__title title-h2">Тарифы на размещение (без НДС)</h2>
+					<p class="section-tarifes__subtitle subtitle">
+						Стоимость изготовления ролика – 1 500 рублей за одну секунду. Статика – бесплатно.
+					</p>
+					<div class="section-tarifes__info">
+						<ul class="section-tarifes__list list">
+							<li class="list__item">
+								<b>«Тестовый»</b>
+								(2 недели до 500 показов в день) – 15 000 руб.
+							</li>
+							<li class="list__item">
+								<b>«Стандарт»</b>
+								(4 недели до 500 показов в день) – 25 000 руб.
+							</li>
+							<li class="list__item">
+								<b>«Максимум»</b>
+								(1 год до 500 показов в день) – 250 000 руб.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="section-questions">
+				<div class="section-questions__container">
+					<h2 class="section-questions__title title-h2">Вопросы, заказ</h2>
+					<div class="section-questions__body">
+						<ul class="section-questions__links links">
+							<li class="links__item">
+								<a href="tel:+74012921992" class="links__link">+7 (4012) 92-19-92</a>
+							</li>
+							<li class="links__item">
+								<a href="mailto:winmedia39@mail.ru" class="links__link">winmedia39@mail.ru</a>
+							</li>
+						</ul>
+						<ul class="section-questions__list list-icons">
+							<li class="list-icons__item">
+								<a href="https://wa.me/message/6ISFJLW4NOXMI1" class="list-icons__messenger">
+									<svg>
+										<use href="img/icons/icons.svg#whatsapp"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="list-icons__item">
+								<a href="viber://chat?number=79637381992" class="list-icons__messenger">
+									<svg>
+										<use href="img/icons/icons.svg#viber"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="list-icons__item">
+								<a href="https://t.me/WinMedia39" class="list-icons__messenger">
+									<svg>
+										<use href="img/icons/icons.svg#tg"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+						<p class="section-questions__subtitle">Приглашаем к сотрудничеству агентов</p>
+					</div>
+				</div>
 			</section>
 		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__text">
+					<p class="footer__info">
+						<span>ООО "Винмедиа", ИНН 3900023630,</span>
+						<span>КПП 390001001, ОГРН 1243900003600</span>
+					</p>
+					<p class="footer__info">
+						<span>Юридический адрес: 238563, Калининградская область,</span>
+						<span>г. Светлогорск, Майская ул, д. 7, кв. 7</span>
+					</p>
+				</div>
+			</div>
+		</footer>
+
 	</div>
-	<script src="js/app.min.js?_v=20241011141814"></script>
+	<script src="js/app.min.js?_v=20241010223707"></script>
 
 </body>
 
